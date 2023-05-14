@@ -8,7 +8,7 @@ import java.util.Properties
 class SimpleConsumer {
     companion object {
         const val TOPIC_NAME = "test"
-        const val BOOTSTRAP_SERVERS = "13.124.252.159:9092"
+        const val BOOTSTRAP_SERVERS = "127.0.0.1:9092"
         const val GROUP_ID = "test-group"
     }
 }
